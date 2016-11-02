@@ -1,4 +1,7 @@
-﻿namespace Donald_Knuth.core
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace Donald_Knuth.core
 {
     public static class AlgorithmEuclidean
     {
@@ -26,6 +29,27 @@
             }
 
             return nn1;
+        }
+
+        public static int GreatestCommonDivisorMod(int nn1, int nn2)
+        {
+            var nn = new List<int> { nn1, nn2 };
+
+            var quantityCycles = 1;
+
+            //nn = nn.OrderByDescending(x => x).ToList();
+
+            if (!nn.Contains(0))
+            {
+                for (int i = 0; 0 < nn[i] % nn[i + 1]; i++)
+                {
+                    nn.Add(nn[i] % nn[i + 1]);
+
+                    quantityCycles += 1;
+                }
+            }
+
+            return nn.Last();
         }
     }
 }

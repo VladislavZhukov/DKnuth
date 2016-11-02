@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="core\AlgorithmEuclidean.cs" />
-    <Compile Include="exercises\volume1\AlgorithmEuclidean.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
