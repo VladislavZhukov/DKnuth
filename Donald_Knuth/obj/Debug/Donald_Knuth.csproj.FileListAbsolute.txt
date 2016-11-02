@@ -1,0 +1,6 @@
+E:\01_project\005_TEST_PROJECTS\Donald_Knuth\Donald_Knuth\bin\Debug\Donald_Knuth.exe.config
+E:\01_project\005_TEST_PROJECTS\Donald_Knuth\Donald_Knuth\bin\Debug\Donald_Knuth.exe
+E:\01_project\005_TEST_PROJECTS\Donald_Knuth\Donald_Knuth\bin\Debug\Donald_Knuth.pdb
+E:\01_project\005_TEST_PROJECTS\Donald_Knuth\Donald_Knuth\obj\Debug\Donald_Knuth.csprojResolveAssemblyReference.cache
+E:\01_project\005_TEST_PROJECTS\Donald_Knuth\Donald_Knuth\obj\Debug\Donald_Knuth.exe
+E:\01_project\005_TEST_PROJECTS\Donald_Knuth\Donald_Knuth\obj\Debug\Donald_Knuth.pdb
